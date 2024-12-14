@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
+  --soft-purple: #d6a1db;
   --header-height: 3rem;
   --font-semi: 600;
   /*===== Colores =====*/
@@ -110,7 +111,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #d6a1db;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -139,7 +140,7 @@ img {
 }
 .nav__link {
   position: relative;
-  color: #fff;
+  color: #d6a1db;
 }
 .nav__link:hover {
   position: relative;
@@ -378,7 +379,7 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
-  color: #fff;
+  color: #d6a1db;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -392,7 +393,7 @@ img {
 }
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: #d6a1db;
   margin: 0 var(--mb-2);
 }
 .footer__copy {
