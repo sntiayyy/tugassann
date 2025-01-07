@@ -96,79 +96,57 @@
                 </div>
             </section>
 
-            <!--===== MY CERTIFICATE =====-->
-            <section class="my certificate section" id="certificate">
-                <h2 class="section-title">My Certificate</h2>
+              <!-- Section Sebelumnya -->
 
-                <div class="certificate__container bd-grid">          
-                    <div>
-                        <div class="certificate-items">
-                                <h3>Certificate HTML</h3>
-                            <div class="certificate-item">
-                                <img src="Certificate HTML.jpg" alt="Certificate 1">
-                            </div>
-                                <h3>Certificate CSS</h3>
-                            <div class="certificate-item">
-                                <img src="Certificate CSS.jpg" alt="Certificate 2">
-                            </div>
-                                <h3>Certificate JavaScript</h3>
-                            <div class="certificate-item">
-                                <img src="Certificate  JavaScript.jpg" alt="Sertifikat 3">
-                            </div>
-                                <h3>Certificate JavaScript Intermediate</h3>
-                            <div class="certificate-item">
-                                <img src="Certificate JavaScript Intermediate.jpg" alt="Certificate 4">
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-            </section>
+    <!-- Filter Kategori -->
+    <div style="margin-bottom: 20px; text-align: center;">
+        <label for="filter-category">Filter by Category:</label>
+        <select id="filter-category" class="filter-dropdown">
+            <option value="all">All</option>
+            <option value="project">Project</option>
+            <option value="certificate">Certificate</option>
+        </select>
+    </div>
 
-            <!--===== MY PROJECT =====-->
-            <section class="my project section" id="my project">
-                <h2 class="section-title">My Project</h2>
+        <!-- My Project Section -->
+        <section class="my project section" id="my project">
+            <h2 class="section-title">My Project</h2>
+            <div class="myproject-item" data-category="project">
+                <img src="form login.png" alt="">
+            </div>
+            <div class="myproject-item" data-category="project">
+                <img src="portfolio.png" alt="">
+            </div>
+            <div class="myproject-item" data-category="project">
+                <img src="kalkulator.png" alt="">
+            </div>
+            <div class="myproject-item" data-category="project">
+                <img src="diagram.png" alt="">
+            </div>
+            <div class="myproject-item" data-category="project">
+                <img src="snake.png" alt="">
+            </div>
+            <div class="myproject-item" data-category="project">
+                <img src="diagram tahunan.png" alt="">
+            </div>
+        </section>
 
-                <div class="myproject bd-grid">          
-                    <div>
-                        <h3 class="myproject">Form Login</h3>
-                        <div class="myproject-item">
-                            <div class="myproject-item">
-                        <img src="form login.png" alt="">
-                        <p>Project 1: Membuat Form Login.</p>
-                        <a href="FormLogin.html" class="tombol">Buka Form Login</a>
-                    </div>
-                    <div class="myproject-item">
-                        <h3>Portfolio</h3>
-                        <img src="portfolio.png" alt="">
-                        <p>Project 2: Membuat Portfolio.</p>
-                        <a href="index portfolio.html" class="tombol">Buka Portfolio</a>
-                    </div>
-                    <div class="myproject-item">
-                        <h3>Kalkulator</h3>
-                        <img src="kalkulator.png" alt="">
-                        <p>Project 3: Membuat Kalkulator Sederhana.</p>
-                        <a href="index kalkulator.html" class="tombol">Buka Kalkulator</a>
-                    </div>
-                    <div class="myproject-item">
-                        <h3>Diagram Admin</h3>
-                        <img src="diagram.png" alt="">
-                        <p>Project 4: Membuat Diagram Admin.</p>
-                        <a href="index diagram.html" class="tombol">Buka Diagram Admin</a>
-                    </div>
-                    <div class="myproject-item">
-                        <h3>Game Snack</h3>
-                        <img src="snake.png" alt="">
-                        <p>Project 5: Membuat game ular.</p>
-                        <a href="index snake.html" class="tombol">Buka Game Ular</a>
-                    </div>
-                    <div class="myproject-item">
-                        <h3>Diagram Tahunan</h3>
-                        <img src="diagram tahunan.png" alt="">
-                        <p>Project 6: Membuat diagram tahunan.</p>
-                        <a href="diagram index.html" class="tombol">Buka Diagram Tahunan</a>
-                    </div>
-                </div>
-            </section>
+            <!-- My Certificate Section -->
+    <section class="my certificate section" id="certificate">
+        <h2 class="section-title">My Certificate</h2>
+        <div class="certificate-item" data-category="certificate">
+            <img src="Certificate HTML.jpg" alt="Certificate HTML">       
+        </div>
+        <div class="certificate-item" data-category="certificate">   
+            <img src="Certificate CSS.jpg" alt="Certificate HTML">
+        </div>
+        <div class="certificate-item" data-category="certificate">
+            <img src="Certificate  JavaScript.jpg" alt="Certificate HTML">        
+        </div>
+        <div class="certificate-item" data-category="certificate">
+            <img src="Certificate JavaScript Intermediate.jpg" alt="Certificate HTML">      
+        </div>
+    </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -196,6 +174,22 @@
             <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
         </footer>
 
+        <!-- Google Maps -->
+    <div style="margin-top: 20px; text-align: center;">
+        <h3>Find Me Here</h3>
+        <div class="google-maps">
+            <iframe 
+                src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.182564050458!2d106.66164033114907!3d-6.23965320227195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f96055555555%3A0x8a088666a8b0dc3b!2sPusdik%20Lantas%20Polri!5e0!3m2!1sid!2sid!4v1736226665115!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
